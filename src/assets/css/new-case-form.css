@@ -28,3 +28,49 @@
   color: black;
   margin-top: 64px;
 }
+
+input {
+  color: black;
+}
+
+.form-control {
+  color: black !important;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+  .button-group {
+    flex-direction: column;
+  }
+}
+
+.btn-import {
+  background-color: #007bff !important;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-import:hover {
+  background-color: #0056b3;
+}
+
+.btn-upload {
+  background-color: #28a745 !important;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.btn-upload:hover {
+  background-color: #218838 !important;
+}

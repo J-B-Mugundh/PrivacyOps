@@ -63,7 +63,7 @@ if submit:
         "Occurrence of offence": "",
         "Type of information": "",
         "Place of occurrence": "",
-        "Complaint / Victim's name": ""
+        "Victim": ""
     }
 
     # Parse response to extract field data
@@ -91,7 +91,7 @@ if submit:
     )
 
      # Assuming your privacy ops portal URL is localhost:3000
-    portal_url = "http://localhost:3000/new-case-file?"
+    portal_url = "http://localhost:3000/new-case?"
     print(portal_url)  # Print portal URL for debugging
 
     cleaned_field_data = {key.replace(' ', ''): value.replace(' ', '_') for key, value in field_data.items()}

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Form,
   FormGroup,
@@ -13,12 +13,72 @@ import {
 import "assets/css/new-case-form.css";
 
 function NewCaseForm({ createCase }) {
-  const [newCase, setNewCase] = useState({});
+  const [newCase, setNewCase] = useState({
+    FIRNo: "",
+    DateandTimeofFIR: "",
+    Occurrenceofoffence: "",
+    Typeofinformation: "",
+    Placeofoccurrence: "",
+    Victim: "",
+  });
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(queryParams.entries());
+    console.log(params); // Log the params object
+    setNewCase(params);
+  }, []);
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(queryParams.entries());
+
+    if (params.Occurrenceofoffence) {
+      const [date, time] = params.Occurrenceofoffence.split("_");
+      const [day, month, year] = date.split("/");
+      let [hour, minute] = ["00", "00"]; // Initialize hour and minute with default values
+
+      if (time.includes(":")) {
+        // Check if time contains a colon
+        [hour, minute] = time.split(":"); // Split time into hour and minute if colon is present
+      } else {
+        hour = time; // If no colon, assume only hour is provided
+      }
+
+      const formattedDate = `${year}-${month}-${day}T${hour}:${minute}`;
+      params.Occurrenceofoffence = formattedDate;
+    }
+
+    // Convert DateandTimeofFIR to the desired format
+    if (params.DateandTimeofFIR) {
+      const [date, time] = params.DateandTimeofFIR.split("_");
+      const [day, month, year] = date.split("/");
+      let [hour, minute] = ["00", "00"]; // Initialize hour and minute with default values
+
+      if (time.includes(":")) {
+        // Check if time contains a colon
+        [hour, minute] = time.split(":"); // Split time into hour and minute if colon is present
+      } else {
+        hour = time; // If no colon, assume only hour is provided
+      }
+
+      const formattedDate = `${year}-${month}-${day}T${hour}:${minute}`;
+      params.DateandTimeofFIR = formattedDate;
+    }
+
+    console.log(params); // Log the params object
+
+    setNewCase(params);
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
     createCase(newCase);
     setNewCase({});
+  };
+
+  const handleUploadClick = () => {
+    window.location.href = "http://localhost:8501/";
   };
 
   return (
@@ -52,6 +112,14 @@ function NewCaseForm({ createCase }) {
             </div>
           </Col>
           <Col md="6">
+            <div className="button-group">
+              <Button className="btn-import">
+                Already have JSON data? Import JSON
+              </Button>
+              <Button className="btn-upload" onClick={handleUploadClick}>
+                Have case document? Upload file
+              </Button>
+            </div>
             <Form onSubmit={handleSubmit} className="case-form">
               <FormGroup>
                 <Label for="dateTimeOfIncident">
@@ -60,11 +128,11 @@ function NewCaseForm({ createCase }) {
                 <Input
                   type="datetime-local"
                   id="dateTimeOfIncident"
-                  value={newCase.dateTimeOfIncident || ""}
+                  value={newCase.Occurrenceofoffence || ""}
                   onChange={(e) =>
                     setNewCase({
                       ...newCase,
-                      dateTimeOfIncident: e.target.value,
+                      Occurrenceofoffence: e.target.value,
                     })
                   }
                 />
@@ -74,9 +142,12 @@ function NewCaseForm({ createCase }) {
                 <Input
                   type="text"
                   id="location"
-                  value={newCase.location || ""}
+                  value={newCase.Placeofoccurrence || ""}
                   onChange={(e) =>
-                    setNewCase({ ...newCase, location: e.target.value })
+                    setNewCase({
+                      ...newCase,
+                      Placeofoccurrence: e.target.value,
+                    })
                   }
                 />
               </FormGroup>
@@ -85,9 +156,12 @@ function NewCaseForm({ createCase }) {
                 <Input
                   type="text"
                   id="victimName"
-                  value={newCase.victimName || ""}
+                  value={newCase["Victim"] || ""}
                   onChange={(e) =>
-                    setNewCase({ ...newCase, victimName: e.target.value })
+                    setNewCase({
+                      ...newCase,
+                      Victim: e.target.value,
+                    })
                   }
                 />
               </FormGroup>
@@ -134,11 +208,11 @@ function NewCaseForm({ createCase }) {
                 <Input
                   type="datetime-local"
                   id="arrestInformation"
-                  value={newCase.arrestInformation || ""}
+                  value={newCase.DateandTimeofFIR || ""}
                   onChange={(e) =>
                     setNewCase({
                       ...newCase,
-                      arrestInformation: e.target.value,
+                      DateandTimeofFIR: e.target.value,
                     })
                   }
                 />
