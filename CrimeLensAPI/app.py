@@ -55,7 +55,7 @@ if submit:
     image_data = input_image_setup(uploaded_file)
     response = get_gemini_response(input_prompt, image_data, input_prompt)
     st.subheader("The Response is")
-
+    print("Respons")
     # Extracting field data
     field_data = {
         "FIR No": "",
@@ -89,3 +89,16 @@ if submit:
         file_name="field_data.json",
         mime="application/json"
     )
+
+     # Assuming your privacy ops portal URL is localhost:3000
+    portal_url = "http://localhost:3000/new-case-file?"
+    print(portal_url)  # Print portal URL for debugging
+
+    cleaned_field_data = {key.replace(' ', ''): value.replace(' ', '_') for key, value in field_data.items()}
+
+    # Construct the URL with cleaned_field_data
+    url_params = "&".join([f"{key}={value}" for key, value in cleaned_field_data.items()])
+    full_url = portal_url + url_params
+    st.write("Click on the below link to open the PrivacyOps Portal with the extracted data:")
+    st.write(full_url)
+
