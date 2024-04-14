@@ -78,7 +78,7 @@ function NewCaseForm({ createCase }) {
   };
 
   const handleUploadClick = () => {
-    window.location.href = "http://localhost:8501/";
+    window.location.href = process.env.REACT_APP_OCR;
   };
 
   return (
