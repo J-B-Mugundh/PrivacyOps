@@ -1,0 +1,30 @@
+.form-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: azure;
+  margin-bottom: 10px;
+}
+
+.case-form {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  padding: 20px;
+}
+
+.form-container h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.quotes {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 24px;
+}
+
+.mobile-quote-container {
+  background-color: white;
+  color: black;
+  margin-top: 64px;
+}
