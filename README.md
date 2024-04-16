@@ -39,13 +39,45 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 ## Implementation
 
-![Home Page](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img1.JPG)
-![Case Statistics](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img2.JPG)
-![Outstanding Features](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img3.JPG)
-![Performance](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img4.JPG)
-![Case Filing](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG)
-![Criminal Case Filing System OCR](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img6.JPG)
-![Report Response](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+
+<!-- Home Page -->
+<div style="width: 30%; margin-bottom: 20px;">
+    <h3>Home Page</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img1.JPG" style="width: 100%;">
+</div>
+
+<!-- Outstanding Features -->
+<div style="width: 30%; margin-bottom: 20px;">
+    <h3>Outstanding Features</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img2.JPG" style="width: 100%;">
+</div>
+
+<!-- Performance -->
+<div style="width: 30%; margin-bottom: 20px;">
+    <h3>Performance</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img3.JPG" style="width: 100%;">
+</div>
+
+<!-- Case Filing -->
+<div style="width: 30%; margin-bottom: 20px;">
+    <h3>Case Filing</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img4.JPG" style="width: 100%;">
+</div>
+
+<!-- Criminal Case Filing System OCR -->
+<div style="width: 30%; margin-bottom: 20px;">
+    <h3>Criminal Case Filing System OCR</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%;">
+</div>
+
+<!-- Report Response -->
+<div style="width: 30%; margin-bottom: 20px;">
+    <h3>Report Response</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img6.JPG" style="width: 100%;">
+</div>
+
+</div>
 
 ## Installation
 
