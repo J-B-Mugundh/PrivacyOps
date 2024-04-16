@@ -39,12 +39,12 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 ## Implementation
 
-![Home Page](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
-![Case Statistics](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
-![Outstanding Features](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
-![Performance](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
-![Case Filing](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
-![Criminal Case Filing System OCR](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Home Page](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img1.JPG)
+![Case Statistics](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img2.JPG)
+![Outstanding Features](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img3.JPG)
+![Performance](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img4.JPG)
+![Case Filing](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG)
+![Criminal Case Filing System OCR](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img6.JPG)
 ![Report Response](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
 
 ## Installation
