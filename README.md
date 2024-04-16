@@ -1,4 +1,5 @@
-# KSP Datathon Project: Balancing Law Enforcement Data Collection and Utilization
+
+# KSP Datathon Project: Balancing Law Enforcement Data Collection and Utilization 🚔🔒
 
 ## Introduction
 
@@ -37,7 +38,7 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 ![Architecture Diagram](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
 
-## Implementation
+## Implementation 🚀
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
@@ -68,7 +69,9 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 <!-- Criminal Case Filing System OCR -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Criminal Case Filing System OCR</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img7.JPG" style="width: 100%; height: auto;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps
+
+/blob/main/Implementation%20snips/Img7.JPG" style="width: 100%; height: auto;">
 </div>
 
 <!-- Report Response -->
@@ -78,6 +81,3 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 </div>
 
 </div>
-
-
-
