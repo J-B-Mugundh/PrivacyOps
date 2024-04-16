@@ -37,12 +37,15 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 ![Architecture Diagram](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
 
-## Features
+## Implementation
 
-- Secure case filing portal with blockchain and IPFS integration
-- Enhanced data anonymization in case management
-- Privacy-preserving evidence storage and analysis
-- Gamified privacy education platform for law enforcement personnel
+![Home Page](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Case Statistics](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Outstanding Features](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Performance](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Case Filing](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Criminal Case Filing System OCR](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
+![Report Response](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
 
 ## Installation
 
