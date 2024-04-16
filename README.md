@@ -42,59 +42,41 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
 
 <!-- Home Page -->
-<div style="width: 30%; margin-bottom: 20px;">
+<div style="width: 20%; margin-bottom: 20px;">
     <h3>Home Page</h3>
     <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img1.JPG" style="width: 100%;">
 </div>
 
 <!-- Outstanding Features -->
-<div style="width: 30%; margin-bottom: 20px;">
+<div style="width: 20%; margin-bottom: 20px;">
     <h3>Outstanding Features</h3>
     <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img2.JPG" style="width: 100%;">
 </div>
 
 <!-- Performance -->
-<div style="width: 30%; margin-bottom: 20px;">
+<div style="width: 20%; margin-bottom: 20px;">
     <h3>Performance</h3>
     <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img3.JPG" style="width: 100%;">
 </div>
 
 <!-- Case Filing -->
-<div style="width: 30%; margin-bottom: 20px;">
+<div style="width: 20%; margin-bottom: 20px;">
     <h3>Case Filing</h3>
     <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img4.JPG" style="width: 100%;">
 </div>
 
 <!-- Criminal Case Filing System OCR -->
-<div style="width: 30%; margin-bottom: 20px;">
+<div style="width: 20%; margin-bottom: 20px;">
     <h3>Criminal Case Filing System OCR</h3>
     <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img7.JPG" style="width: 100%;">
 </div>
 
 <!-- Report Response -->
-<div style="width: 30%; margin-bottom: 20px;">
+<div style="width: 20%; margin-bottom: 20px;">
     <h3>Report Response</h3>
     <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%;">
 </div>
 
 </div>
 
-## Installation
 
-Instructions on how to install and set up the project.
-
-## Usage
-
-Guide on how to use the project, including examples or screenshots if necessary.
-
-## Contributing
-
-Information on how others can contribute to the project, including guidelines and contact details.
-
-## License
-
-Information about the project's license.
-
-## Acknowledgements
-
-Recognition of any individuals or organizations that contributed to the project.
