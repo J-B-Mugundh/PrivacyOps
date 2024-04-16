@@ -44,39 +44,40 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 <!-- Home Page -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Home Page</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img1.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img1.JPG" style="width: 100%; height: auto;">
 </div>
 
 <!-- Outstanding Features -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Outstanding Features</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img2.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img2.JPG" style="width: 100%; height: auto;">
 </div>
 
 <!-- Performance -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Performance</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img3.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img3.JPG" style="width: 100%; height: auto;">
 </div>
 
 <!-- Case Filing -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Case Filing</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img4.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img4.JPG" style="width: 100%; height: auto;">
 </div>
 
 <!-- Criminal Case Filing System OCR -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Criminal Case Filing System OCR</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img7.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img7.JPG" style="width: 100%; height: auto;">
 </div>
 
 <!-- Report Response -->
 <div style="width: 20%; margin-bottom: 20px;">
     <h3>Report Response</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%; height: auto;">
 </div>
 
 </div>
+
 
 
