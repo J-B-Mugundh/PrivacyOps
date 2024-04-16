@@ -1,6 +1,4 @@
-Sure, here's the updated README text with emojis added to each subheading:
 
-```markdown
 # KSP Datathon Project: Balancing Law Enforcement Data Collection and Utilization 🚓🔒
 
 ## Introduction 🌟
