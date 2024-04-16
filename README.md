@@ -74,3 +74,9 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 <!-- Report Response -->
 <div style="width: 20%; margin-bottom:
+    
+## Additional Links 🔗
+
+- [Prototype Video](https://drive.google.com/drive/folders/1QYJ-V8tKhBRQxXGOX2B6VoIeAJLoYbid?usp=sharing)
+- [Crime Lens API (Hosted at Streamlit)](https://crimelensapi.streamlit.app/)
+- [Web3 Portal (Hosted at Azure)](https://polite-mud-053d9e700.5.azurestaticapps.net/)
