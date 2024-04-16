@@ -35,7 +35,7 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 ## Architecture Diagram
 
-Insert an architecture diagram here if applicable.
+![Architecture Diagram]()
 
 ## Features
 
