@@ -18,7 +18,7 @@ Developing frameworks and technologies that meet the following challenges:
 
 ## Proposed Solution 💡
 
-### 1) Secure Case Filing Portal with Blockchain and IPFS
+### 1) Secure Case Filing Portal with Blockchain and IPFS 📋
 
 Law enforcement agencies require a robust and secure platform to file cases and manage sensitive information. A web portal integrated with blockchain technology ensures immutable record-keeping, enhancing transparency and trust in the system. By leveraging the InterPlanetary File System (IPFS), evidence storage becomes decentralized and privacy-preserving, safeguarding sensitive data from unauthorized access. Encryption protocols and access controls add layers of security, allowing only authorized personnel to access case files. This integrated solution not only enhances data security but also streamlines the case filing process for law enforcement agencies.
 
@@ -73,7 +73,12 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 </div>
 
 <!-- Report Response -->
-<div style="width: 20%; margin-bottom:
+<div style="width: 20%; margin-bottom: 20px;">
+    <h3>Report Response 📄</h3>
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%; height: auto;">
+</div>
+
+</div>
     
 ## Additional Links 🔗
 
