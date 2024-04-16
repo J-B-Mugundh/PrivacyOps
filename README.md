@@ -1,6 +1,6 @@
 
 # KSP Datathon Project: Balancing Law Enforcement Data Collection and Utilization 🚓🔒
-
+![](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Law.png)
 ## Introduction 🌟
 
 This project was developed for the KSP Datathon with the aim of addressing the challenge of balancing data collection and utilization for effective law enforcement while ensuring public privacy concerns are met. The project proposes innovative solutions to enhance data security, privacy, and transparency in law enforcement activities.
