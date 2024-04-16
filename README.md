@@ -68,13 +68,13 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 <!-- Criminal Case Filing System OCR -->
 <div style="width: 30%; margin-bottom: 20px;">
     <h3>Criminal Case Filing System OCR</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img7.JPG" style="width: 100%;">
 </div>
 
 <!-- Report Response -->
 <div style="width: 30%; margin-bottom: 20px;">
     <h3>Report Response</h3>
-    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img6.JPG" style="width: 100%;">
+    <img src="https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/Img5.JPG" style="width: 100%;">
 </div>
 
 </div>
