@@ -35,7 +35,7 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 
 ## Architecture Diagram
 
-![Architecture Diagram](Implementation snips/KSP.JPG)
+![Architecture Diagram](PrivacyOps/Implementation snips/KSP.JPG)
 
 ## Features
 
