@@ -1,12 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import { ethers } from 'ethers';
-import CriminalCaseFilingABI from './contracts/CriminalCaseFilingABI.json';
-import NewCaseForm from './NewCaseForm';
-import DisplayCases from './DisplayCases';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { ethers } from "ethers";
+import CriminalCaseFilingABI from "./contracts/CriminalCaseFilingABI.json";
+import NewCaseForm from "./NewCaseForm";
+import DisplayCases from "./DisplayCases";
 import LandingPage from "views/examples/LandingPage.js";
 import PageHeader from 'components/PageHeader/PageHeader';
-import IndexNavbar from 'components/Navbars/IndexNavbar';
 import { Navbar, NavbarBrand, NavItem, NavLink, Nav, Container, Collapse, UncontrolledTooltip } from 'reactstrap';
 
 export default function App() {
@@ -16,7 +15,8 @@ export default function App() {
   const [cases, setCases] = useState([]);
   const [provider, setProvider] = useState(null);
   const [signer, setSigner] = useState(null);
-  const [criminalCaseFilingContract, setCriminalCaseFilingContract] = useState(null);
+  const [criminalCaseFilingContract, setCriminalCaseFilingContract] =
+    useState(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -76,15 +76,23 @@ export default function App() {
   };
 
   const changeColor = () => {
-    if (document.documentElement.scrollTop > 99 || document.body.scrollTop > 99) {
+    if (
+      document.documentElement.scrollTop > 99 ||
+      document.body.scrollTop > 99
+    ) {
       setColor("bg-info");
-    } else if (document.documentElement.scrollTop < 100 || document.body.scrollTop < 100) {
+    } else if (
+      document.documentElement.scrollTop < 100 ||
+      document.body.scrollTop < 100
+    ) {
       setColor("navbar-transparent");
     }
   };
 
   const scrollToDownload = () => {
-    document.getElementById("download-section").scrollIntoView({ behavior: "smooth" });
+    document
+      .getElementById("download-section")
+      .scrollIntoView({ behavior: "smooth" });
   };
 
   const createCase = async (newCase) => {
@@ -113,13 +121,13 @@ export default function App() {
   const handleDelete = async (id) => {
     try {
       if (criminalCaseFilingContract) {
-        const _case = cases.find(_case => _case.id === id);
+        const _case = cases.find((_case) => _case.id === id);
         if (_case && !_case.deleted) {
           const { hash } = await criminalCaseFilingContract.deleteCase(id);
           await provider.waitForTransaction(hash);
-          
+
           // Remove the deleted case from the state
-          setCases(prevCases => prevCases.filter(_case => _case.id !== id));
+          setCases((prevCases) => prevCases.filter((_case) => _case.id !== id));
         } else {
           console.error("Case has already been deleted.");
         }
@@ -130,15 +138,20 @@ export default function App() {
       console.error("Error deleting case:", error);
     }
   };
-  
 
   return (
     <Router>
       <IndexNavbar />
       <Routes>
-        <Route path="/new-case" element={<NewCaseForm createCase={createCase} />} />
-        <Route path="/display-cases" element={<DisplayCases cases={cases} handleDelete={handleDelete} />} />
-        <Route path="/" element={<LandingPage/>} />
+        <Route
+          path="/new-case"
+          element={<NewCaseForm createCase={createCase} />}
+        />
+        <Route
+          path="/display-cases"
+          element={<DisplayCases cases={cases} handleDelete={handleDelete} />}
+        />
+        <Route path="/" element={<LandingPage />} />
       </Routes>
     </Router>
   );
