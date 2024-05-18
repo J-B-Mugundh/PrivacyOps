@@ -1,23 +1,7 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
-// reactstrap components
+
 import {
   Button,
   NavItem,
@@ -35,7 +19,13 @@ export default function Footer() {
       <Container>
         <Row>
           <Col md="3">
-            <h1 className="title">BLK•</h1>
+          
+          <img
+              alt="..."
+              className="img-center img-fluid"
+              style={{ height: "12rem" }}
+              src={require("assets/img/ksp-logo.png")}
+            />
           </Col>
           <Col md="3">
             <Nav>
@@ -46,17 +36,17 @@ export default function Footer() {
               </NavItem>
               <NavItem>
                 <NavLink to="/landing-page" tag={Link}>
-                  Landing
+                  File New Case
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/register-page" tag={Link}>
-                  Register
+                  Display Cases
                 </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink to="/profile-page" tag={Link}>
-                  Profile
+                  Bookmarks
                 </NavLink>
               </NavItem>
             </Nav>

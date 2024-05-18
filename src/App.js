@@ -7,6 +7,7 @@ import DisplayCases from "./DisplayCases";
 import LandingPage from "views/examples/LandingPage.js";
 import PageHeader from "components/PageHeader/PageHeader";
 import IndexNavbar from "components/Navbars/IndexNavbar";
+import InformationPage from "views/examples/InformationPage";
 import {
   Navbar,
   NavbarBrand,
@@ -25,8 +26,7 @@ export default function App() {
   const [cases, setCases] = useState([]);
   const [provider, setProvider] = useState(null);
   const [signer, setSigner] = useState(null);
-  const [criminalCaseFilingContract, setCriminalCaseFilingContract] =
-    useState(null);
+  const [criminalCaseFilingContract, setCriminalCaseFilingContract] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
@@ -86,47 +86,47 @@ export default function App() {
   };
 
   const changeColor = () => {
-    if (
-      document.documentElement.scrollTop > 99 ||
-      document.body.scrollTop > 99
-    ) {
+    if (window.pageYOffset > 99) {
       setColor("bg-info");
-    } else if (
-      document.documentElement.scrollTop < 100 ||
-      document.body.scrollTop < 100
-    ) {
+    } else {
       setColor("navbar-transparent");
     }
   };
 
   const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
+    document.getElementById("download-section").scrollIntoView({ behavior: "smooth" });
   };
 
   const createCase = async (newCase) => {
     try {
-      if (criminalCaseFilingContract) {
-        const { hash } = await criminalCaseFilingContract.createCase(
-          newCase.dateTimeOfIncident,
-          newCase.location,
-          newCase.victimName,
-          newCase.suspectName,
-          newCase.descriptionOfIncident,
-          newCase.charges,
-          newCase.arrestInformation,
-          newCase.evidence
-        );
-        await provider.waitForTransaction(hash);
-        await getCriminalCases(criminalCaseFilingContract);
-      } else {
-        console.error("Criminal case filing contract not available.");
+      if (!criminalCaseFilingContract || !provider) {
+        console.error("Criminal case filing contract or provider not available.");
+        return;
       }
+  
+      const { hash } = await criminalCaseFilingContract.createCase(
+        newCase.dateTimeOfIncident,
+        newCase.location,
+        newCase.victimName,
+        newCase.suspectName,
+        newCase.descriptionOfIncident,
+        newCase.charges,
+        newCase.arrestInformation,
+        newCase.evidence
+      );
+  
+      if (!hash) {
+        console.error("Transaction hash not available.");
+        return;
+      }
+  
+      await provider.waitForTransaction(hash);
+      await getCriminalCases(criminalCaseFilingContract);
     } catch (error) {
       console.error("Error creating case:", error);
     }
   };
+  
 
   const handleDelete = async (id) => {
     try {
@@ -162,6 +162,7 @@ export default function App() {
           element={<DisplayCases cases={cases} handleDelete={handleDelete} />}
         />
         <Route path="/" element={<LandingPage />} />
+        <Route path="/info" element={<InformationPage />} />
       </Routes>
     </Router>
   );

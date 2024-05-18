@@ -115,15 +115,15 @@ export default function IndexNavbar() {
               </NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/new-case" tag={Link}>
-                File New Case
+              <NavLink to="/info" tag={Link}>
+                Learn
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink to="/display-cases" tag={Link}>
                 Display Cases
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <UncontrolledDropdown nav>
               <DropdownToggle
                 caret
@@ -141,6 +141,10 @@ export default function IndexNavbar() {
                   <i className="tim-icons icon-paper" />
                   Documentation
                 </DropdownItem>
+                <DropdownItem href="https://gamified-privacy-education-with-gemini-545z0wmud.vercel.app">
+                  <i className="tim-icons icon-paper" />
+                  Gamified Quiz
+                </DropdownItem>
                 <DropdownItem tag={Link} to="/register-page">
                   <i className="tim-icons icon-bullet-list-67" />
                   Register Page
@@ -155,6 +159,7 @@ export default function IndexNavbar() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
+            <Button href="http://www.privacyops.com" className="ml-2">Visit PrivacyOps</Button>
           </Nav>
         </Collapse>
       </Container>
