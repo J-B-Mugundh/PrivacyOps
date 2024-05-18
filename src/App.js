@@ -5,19 +5,8 @@ import CriminalCaseFilingABI from "./contracts/CriminalCaseFilingABI.json";
 import NewCaseForm from "./NewCaseForm";
 import DisplayCases from "./DisplayCases";
 import LandingPage from "views/examples/LandingPage.js";
-import PageHeader from "components/PageHeader/PageHeader";
-import IndexNavbar from "components/Navbars/IndexNavbar";
-import InformationPage from "views/examples/InformationPage";
-import {
-  Navbar,
-  NavbarBrand,
-  NavItem,
-  NavLink,
-  Nav,
-  Container,
-  Collapse,
-  UncontrolledTooltip,
-} from "reactstrap";
+import PageHeader from 'components/PageHeader/PageHeader';
+import { Navbar, NavbarBrand, NavItem, NavLink, Nav, Container, Collapse, UncontrolledTooltip } from 'reactstrap';
 
 export default function App() {
   const [collapseOpen, setCollapseOpen] = useState(false);
