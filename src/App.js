@@ -6,6 +6,7 @@ import NewCaseForm from './NewCaseForm';
 import DisplayCases from './DisplayCases';
 import LandingPage from "views/examples/LandingPage.js";
 import PageHeader from 'components/PageHeader/PageHeader';
+import IndexNavbar from 'components/Navbars/IndexNavbar';
 import { Navbar, NavbarBrand, NavItem, NavLink, Nav, Container, Collapse, UncontrolledTooltip } from 'reactstrap';
 
 export default function App() {
@@ -133,57 +134,7 @@ export default function App() {
 
   return (
     <Router>
-      <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
-        <Container>
-          <div className="navbar-translate">
-            <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <img
-                      alt="..."
-                      className="img-center img-fluid"
-                      style={{ height: '2rem' }}
-                      src={require("assets/img/case-filing-logo.png")}
-                    />
-            </NavbarBrand>
-            <UncontrolledTooltip placement="bottom" target="navbar-brand">
-              Designed and Coded by SVM
-            </UncontrolledTooltip>
-            <button
-              aria-expanded={collapseOpen}
-              className="navbar-toggler navbar-toggler"
-              onClick={toggleCollapse}
-            >
-              <span className="navbar-toggler-bar bar1" />
-              <span className="navbar-toggler-bar bar2" />
-              <span className="navbar-toggler-bar bar3" />
-            </button>
-          </div>
-          <Collapse
-            className={"justify-content-end " + collapseOut}
-            navbar
-            isOpen={collapseOpen}
-            onExiting={onCollapseExiting}
-            onExited={onCollapseExited}
-          >
-            <Nav navbar>
-              <NavItem>
-                <NavLink to="/" tag={Link}>
-                  Home
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/new-case" tag={Link}>
-                  File New Case
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink to="/display-cases" tag={Link}>
-                  Display Cases
-                </NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Container>
-      </Navbar>
+      <IndexNavbar />
       <Routes>
         <Route path="/new-case" element={<NewCaseForm createCase={createCase} />} />
         <Route path="/display-cases" element={<DisplayCases cases={cases} handleDelete={handleDelete} />} />
