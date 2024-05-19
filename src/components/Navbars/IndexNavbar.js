@@ -119,11 +119,14 @@ export default function IndexNavbar() {
                 Learn
               </NavLink>
             </NavItem>
-            {/* <NavItem>
-              <NavLink to="/display-cases" tag={Link}>
-                Display Cases
+            <NavItem>
+              <NavLink
+                to="https://gamified-privacy-education-with-gemini-llm.vercel.app/"
+                tag={Link}
+              >
+                Gamified Quiz
               </NavLink>
-            </NavItem> */}
+            </NavItem>
             <UncontrolledDropdown nav>
               <DropdownToggle
                 caret
@@ -137,29 +140,37 @@ export default function IndexNavbar() {
                 Getting started
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
-                <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
+                <DropdownItem href="https://annauniv0-my.sharepoint.com/:w:/g/personal/2021503568_student_annauniv_edu/EcjnBO-aDOJIqB0d6BjtRNUB1lUkD4-BoTeJXdI0i7OGtA?e=YC8Qo5">
                   <i className="tim-icons icon-paper" />
                   Documentation
                 </DropdownItem>
-                <DropdownItem href="https://gamified-privacy-education-with-gemini-545z0wmud.vercel.app">
-                  <i className="tim-icons icon-paper" />
-                  Gamified Quiz
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/register-page">
+
+                {/* <DropdownItem tag={Link} to="/register-page">
                   <i className="tim-icons icon-bullet-list-67" />
                   Register Page
-                </DropdownItem>
-                <DropdownItem tag={Link} to="/landing-page">
+                </DropdownItem> */}
+                <DropdownItem
+                  tag={Link}
+                  to="https://drive.google.com/drive/folders/1QYJ-V8tKhBRQxXGOX2B6VoIeAJLoYbid"
+                >
                   <i className="tim-icons icon-image-02" />
                   Drive Link
                 </DropdownItem>
-                <DropdownItem tag={Link} to="/profile-page">
+                <DropdownItem
+                  tag={Link}
+                  to="https://github.com/J-B-Mugundh/PrivacyOps"
+                >
                   <i className="tim-icons icon-single-02" />
                   GitHub Link
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <Button href="http://www.privacyops.com" className="ml-2">Visit PrivacyOps</Button>
+            <Button
+              href="https://happy-bush-0bf29c700.5.azurestaticapps.net/"
+              className="ml-2"
+            >
+              Visit PrivacyOps
+            </Button>
           </Nav>
         </Collapse>
       </Container>
