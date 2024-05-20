@@ -159,7 +159,7 @@ export default function IndexNavbar() {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
-            <Button href="http://www.privacyops.com" className="ml-2">Visit PrivacyOps</Button>
+            <Button href="http://localhost:3000/" className="ml-2">Visit PrivacyOps</Button>
           </Nav>
         </Collapse>
       </Container>
