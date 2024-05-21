@@ -1,0 +1,4 @@
+.scrollable-cell {
+  overflow: auto;
+  white-space: nowrap;
+}

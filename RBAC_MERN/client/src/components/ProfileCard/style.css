@@ -1,0 +1,18 @@
+.profile-card {
+  width: 991px; /* Adjust this as needed */
+}
+
+#card-profile-image {
+  text-align: center;
+}
+
+/* mobile device */
+@media screen and (max-width: 768px) {
+  .profile-card {
+    width: 100%;
+  }
+
+  #card-profile-image {
+    text-align: center;
+  }
+}
