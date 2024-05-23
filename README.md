@@ -19,32 +19,32 @@ Developing frameworks and technologies that meet the following challenges:
 ## Proposed Solution 💡
 
 ### AI-Powered Recommendation System:
-Utilizes advanced deep learning to analyze historical records.
-Recommends sensitive fields in case files, enhancing data security.
+- Utilizes advanced deep learning to analyze historical records.
+- Recommends sensitive fields in case files, enhancing data security.
 
 ### Privacy and Security Features:
-Incorporates highly advanced homomorphic encryption and next-gen key management.
-Selective anonymization of fields recommended by PrivacyOps AI ensures data protection even in case of leaks.
+- Incorporates highly advanced homomorphic encryption and next-gen key management.
+- Selective anonymization of fields recommended by PrivacyOps AI ensures data protection even in case of leaks.
 
 ### Hybrid Security Model and RBAC:
-Combines RBAC, Bell-LaPadula, and Clark-Wilson principles for scalable access control.
-Segregates user access based on district levels and roles, ensuring tailored access and insights.
+- Combines RBAC, Bell-LaPadula, and Clark-Wilson principles for scalable access control.
+- Segregates user access based on district levels and roles, ensuring tailored access and insights.
 
 ### Scalable and Flexible Solution with NoSQL Database:
-Utilizes MongoDB for faster access times and efficient storage.
-Allows easy addition of roles and permissions, ensuring flexibility as requirements evolve.
+- Utilizes MongoDB for faster access times and efficient storage.
+- Allows easy addition of roles and permissions, ensuring flexibility as requirements evolve.
 
 ### Integration of Crime Lens API and OCR Technology:
-Integrates the Crime Lens API for efficient data extraction from case files.
-Utilizes OCR technology to enhance data processing and extraction accuracy.
+- Integrates the Crime Lens API for efficient data extraction from case files.
+- Utilizes OCR technology to enhance data processing and extraction accuracy.
 
 ### Interactive User Interface:
-Device-friendly UI with rich elements and advanced filters.
-Continuous enhancement of user experience, with frontend integration underway.
+- Device-friendly UI with rich elements and advanced filters.
+- Continuous enhancement of user experience, with frontend integration underway.
 
 ### Gamified Education and Active Learning:
-Integrates an active learning system with comprehensive resources.
-AI-powered quiz platform educates officials and the public on data privacy and usage.
+- Integrates an active learning system with comprehensive resources.
+- AI-powered quiz platform educates officials and the public on data privacy and usage.
 
 
 ## Implementation 🚀
