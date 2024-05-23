@@ -18,25 +18,34 @@ Developing frameworks and technologies that meet the following challenges:
 
 ## Proposed Solution 💡
 
-### 1) Secure Case Filing Portal with Blockchain and IPFS 📋
+### AI-Powered Recommendation System:
+Utilizes advanced deep learning to analyze historical records.
+Recommends sensitive fields in case files, enhancing data security.
 
-Law enforcement agencies require a robust and secure platform to file cases and manage sensitive information. A web portal integrated with blockchain technology ensures immutable record-keeping, enhancing transparency and trust in the system. By leveraging the InterPlanetary File System (IPFS), evidence storage becomes decentralized and privacy-preserving, safeguarding sensitive data from unauthorized access. Encryption protocols and access controls add layers of security, allowing only authorized personnel to access case files. This integrated solution not only enhances data security but also streamlines the case filing process for law enforcement agencies.
+### Privacy and Security Features:
+Incorporates highly advanced homomorphic encryption and next-gen key management.
+Selective anonymization of fields recommended by PrivacyOps AI ensures data protection even in case of leaks.
 
-### 2) Enhanced Data Anonymization in Case Management 🛡️
+### Hybrid Security Model and RBAC:
+Combines RBAC, Bell-LaPadula, and Clark-Wilson principles for scalable access control.
+Segregates user access based on district levels and roles, ensuring tailored access and insights.
 
-A comprehensive and interactive blockchain-based web 3.0 platform has been meticulously crafted for the seamless uploading and management of case files, including FIRs, chargesheets, and statements. Leveraging existing OCR techniques, alongside pre-trained NLP technologies, enables efficient extraction of pertinent details from these files. Integrating a sophisticated anonymization algorithm within the application ensures the substitution of personal identifiers with randomized placeholders while preserving the integrity and structure of the data. Users benefit from a user-friendly dropdown interface, empowering them to selectively anonymize data based on customizable anonymization rules, thereby enhancing privacy protection and data quality.
+### Scalable and Flexible Solution with NoSQL Database:
+Utilizes MongoDB for faster access times and efficient storage.
+Allows easy addition of roles and permissions, ensuring flexibility as requirements evolve.
 
-### 3) Privacy-Preserving Evidence Storage and Analysis 🛡️
+### Integration of Crime Lens API and OCR Technology:
+Integrates the Crime Lens API for efficient data extraction from case files.
+Utilizes OCR technology to enhance data processing and extraction accuracy.
 
-Preserving individual privacy while analyzing sensitive data within case files is paramount for maintaining trust and compliance in law enforcement activities. Implementing differential privacy techniques enables accurate analysis while obscuring individual identities and sensitive information. Federated learning techniques facilitate collaborative data analysis across multiple agencies without compromising data privacy, as raw data remains decentralized. Transparent data governance frameworks ensure accountability and adherence to privacy regulations, fostering public confidence in law enforcement practices.
+### Interactive User Interface:
+Device-friendly UI with rich elements and advanced filters.
+Continuous enhancement of user experience, with frontend integration underway.
 
-### 4) Gamified Privacy Education for Law Enforcement Personnel 🎮
+### Gamified Education and Active Learning:
+Integrates an active learning system with comprehensive resources.
+AI-powered quiz platform educates officials and the public on data privacy and usage.
 
-Recognizing the critical role of education in promoting privacy-conscious behaviors among law enforcement personnel, a gamified privacy education platform is designed to engage and educate users effectively. Tailored modules covering data privacy laws, best practices for handling sensitive information, and ethical considerations in surveillance technologies equip personnel with essential knowledge and skills. Incentives and rewards incentivize participation and continuous learning, fostering a culture of privacy awareness and responsible data handling within law enforcement teams.
-
-## Architecture Diagram 🏗️
-
-![Architecture Diagram](https://github.com/J-B-Mugundh/PrivacyOps/blob/main/Implementation%20snips/KSP.JPG)
 
 ## Implementation 🚀
 
@@ -83,5 +92,6 @@ Recognizing the critical role of education in promoting privacy-conscious behavi
 ## Additional Links 🔗
 
 - [Prototype Video](https://drive.google.com/drive/folders/1QYJ-V8tKhBRQxXGOX2B6VoIeAJLoYbid?usp=sharing)
+)
 - [Crime Lens API (Hosted at Streamlit)](https://crimelensapi.streamlit.app/)
 - [Web3 Portal (Hosted at Azure)](https://polite-mud-053d9e700.5.azurestaticapps.net/)
